@@ -3,7 +3,7 @@
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('MeasurementUnits', [
-      {name: 'cups', createdAt: new Date(), updatedAt: new Date( )},
+      { name: 'cups', createdAt: new Date(), updatedAt: new Date( ) },
       { name: 'fluid ounces', createdAt: new Date(), updatedAt: new Date() },
       { name: 'gallons', createdAt: new Date(), updatedAt: new Date() },
       { name: 'grams', createdAt: new Date(), updatedAt: new Date() },
